@@ -13,6 +13,6 @@
     "node": ">=7.0.0 <8.0.0"
   },
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "node index.js"
   }
 }
