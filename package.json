@@ -10,9 +10,9 @@
     "ws": "0.4.x"
   },
   "engines": {
-    "node": "0.10.x"
+    "node": ">=7.0.0 <8.0.0"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "nodemon index.js"
   }
 }
