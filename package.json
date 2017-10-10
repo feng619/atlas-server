@@ -6,13 +6,18 @@
     "url": "https://github.com/heroku-examples/node-ws-test.git"
   },
   "dependencies": {
+    "body-parser": "^1.18.1",
+    "cors": "^2.8.4",
     "express": "^4.4.5",
+    "express-session": "^1.15.5",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
     "ws": "0.4.x"
   },
   "engines": {
     "node": ">=7.0.0 <8.0.0"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "nodemon index.js"
   }
 }
